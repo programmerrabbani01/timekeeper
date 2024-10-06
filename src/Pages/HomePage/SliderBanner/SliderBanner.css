@@ -1,0 +1,71 @@
+.carousel-caption {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.slideContent {
+  text-align: left;
+  max-width: 550px;
+  padding: 50px 0;
+}
+.slideContent h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.slideContent p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+  color: #333;
+}
+.carousel-caption button.custombtn {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  color: #fff;
+  border: none;
+  background-color: #f9706a;
+  display: block;
+  text-decoration: none;
+}
+.slideContent a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .slideContent h2 {
+    font-size: 25px;
+  }
+  .slideContent p {
+    font-size: 16px;
+    width: 50%;
+  }
+  .carousel-caption button.custombtn {
+    padding: 10px 15px;
+  }
+  .slideContent {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .slideContent h2 {
+    margin-bottom: 10px;
+  }
+  .slideContent p {
+    display: none;
+  }
+}
